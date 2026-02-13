@@ -1,0 +1,4 @@
+species_1	species_2	euclidean_distance_between_means
+versicolor	virginica	1.4294189577521346
+setosa	versicolor	3.2343601699778364
+setosa	virginica	4.5814337732766335
