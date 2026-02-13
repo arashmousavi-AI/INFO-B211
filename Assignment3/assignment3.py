@@ -18,7 +18,7 @@ if not os.path.exists(output_dir):
 petal_df = pd.read_csv(petal_file)
 sepal_df = pd.read_csv(sepal_file)
 
-# Optional: make column names easier to match (lowercase, underscores)
+# This part is optional and sanity check: make column names easier to match (lowercase, underscores)
 petal_df.columns = [c.strip().lower().replace(" ", "_") for c in petal_df.columns]
 sepal_df.columns = [c.strip().lower().replace(" ", "_") for c in sepal_df.columns]
 
@@ -92,3 +92,4 @@ if len(dist_df) > 0:
     least_sim = dist_df.iloc[-1]
     print("the most simila species:", most_sim["species_1"], "and", most_sim["species_2"])
     print("the least similar species:", least_sim["species_1"], "and", least_sim["species_2"])
+
