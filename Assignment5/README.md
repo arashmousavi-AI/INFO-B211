@@ -50,6 +50,9 @@ The program also prints a summary table comparing all model configurations and i
 
 In addition, feature importance values from the Decision Tree model are displayed to show which dataset features have the strongest influence on predictions.
 
+## Model Comparison and Results
+Three machine learning classification models were tested: Logistic Regression, K-Nearest Neighbors, and Decision Tree. For each model, different parameter values were tested to determine the best performing configuration. Performance was evaluated using accuracy, precision, recall, and F1 score. The best overall model was Logistic Regression with parameters max_iter = 2000 and C = 0.1. This model achieved an accuracy of 0.9649 and the highest F1 score of 0.9722. Although KNN and Decision Tree also performed well, Logistic Regression provided the best balance between precision and recall. Feature importance analysis from the Decision Tree model showed that mean concave points and worst texture were among the most important features for predicting whether a tumor is malignant or benign.
+
 ## Type of Execution
 The program involves the following types of execution:
 
