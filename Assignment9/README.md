@@ -71,7 +71,7 @@ Text 4:
 - Uses very different vocabulary (such as Aldric, Toran, Merck)
 - Contains many different named entities
 
-N-Gram 9Trigram0 Analysis
+N-Gram (Trigram) Analysis
 - Trigrams indicate common phrasing patterns
 - Texts 1 - 3 have similar structure and wording patterns
 - Text 4 shows a noticeably different writing style
